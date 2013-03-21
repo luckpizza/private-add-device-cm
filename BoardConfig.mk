@@ -13,12 +13,12 @@
 # limitations under the License.
 
 # Use the non-open-source part, if present
--include vendor/allwinner/SEDNAME/BoardConfigVendor.mk
+-include vendor/SEDMANUFACTURER/SEDNAME/BoardConfigVendor.mk
 
-# Use the part that is common between all allwinner
-include device/allwinner/common/BoardConfig.mk
+# Use the part that is common between all SEDMANUFACTURER
+include device/SEDMANUFACTURER/common/BoardConfig.mk
 
-BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/allwinner/SEDNAME/recovery_keys.c
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/SEDMANUFACTURER/SEDNAME/recovery_keys.c
 
 TARGET_KERNEL_CONFIG := SEDNAME_defconfig
 
