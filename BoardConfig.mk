@@ -102,5 +102,5 @@ WIFI_DRIVER_FW_PATH_AP      := "/system/etc/firmware/fw_bcm4329_apsta.bin"
 
 
 #This should stay always
-TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := device/SEDMANUFACTURER/SEDNAME/releasetools/ota_from_target_files
+TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := build/tools/releasetools/ota_from_target_files
 
