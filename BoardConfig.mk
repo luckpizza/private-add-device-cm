@@ -100,6 +100,20 @@ WIFI_DRIVER_FW_PATH_STA     := "/system/etc/firmware/fw_bcm4329.bin"
 WIFI_DRIVER_FW_PATH_P2P     := "/system/etc/firmware/fw_bcm4329_p2p.bin"
 WIFI_DRIVER_FW_PATH_AP      := "/system/etc/firmware/fw_bcm4329_apsta.bin"
 
+######################################
+##ADDING CHINESE SOFTWARE
+#######################################
+# ebook
+BUILD_WITH_RK_EBOOK := false
+
+# hdmi apk
+BUILD_WITH_HDMI_APK :=false
+
+#for ployer apk
+BUILD_WITH_PLOYER_APK := false
+
+#######################################
+
 
 #This should stay always
 TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := build/tools/releasetools/ota_from_target_files
