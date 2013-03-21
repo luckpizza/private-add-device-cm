@@ -1,6 +1,7 @@
 #!/bin/sh
 
-VENDOR=allwinner
+
+VENDOR=SEDMANUFACTURER
 DEVICE=SEDNAME
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
