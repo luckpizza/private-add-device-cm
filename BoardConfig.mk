@@ -18,7 +18,6 @@
 # Use the part that is common between all SEDMANUFACTURER
 #include device/SEDMANUFACTURER/common/BoardConfig.mk
 
-## Use to map recoery keys
 #BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/SEDMANUFACTURER/SEDNAME/recovery_keys.c
 
 
