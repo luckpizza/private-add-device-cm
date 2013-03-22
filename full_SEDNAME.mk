@@ -165,12 +165,12 @@ PRODUCT_MODEL := SEDPRETTYNAME
 PRODUCT_MANUFACTURER := SEDMANUFACTURER
 
 # WIFI
-#$(call inherit-product, external/wlan_loader/wifi-firmware.mk)
+$(call inherit-product, external/wlan_loader/wifi-firmware.mk)
 
 # BLUETOOTH
-#$(call inherit-product, system/bluetooth/brcm_patchram_plus/hcd.mk)
+$(call inherit-product, system/bluetooth/brcm_patchram_plus/hcd.mk)
 
-#$(call inherit-product, frameworks/native/build/tablet-dalvik-heap.mk)
-#$(call inherit-product, build/target/product/full_base.mk)
-#$(call inherit-product-if-exists, vendor/SEDMANUFACTURER/SEDNAME/tp971500dc-vendor.mk)
+$(call inherit-product, frameworks/native/build/tablet-dalvik-heap.mk)
+$(call inherit-product, build/target/product/full_base.mk)
+$(call inherit-product-if-exists, vendor/SEDMANUFACTURER/SEDNAME/tp971500dc-vendor.mk)
 
