@@ -15,3 +15,4 @@
 #
 
 add_lunch_combo full_SEDNAME-userdebug
+add_lunch_combo cm_SEDNAME-userdebug
