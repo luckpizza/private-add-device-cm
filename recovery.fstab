@@ -1,10 +1,23 @@
 # mount point	fstype		device
+/system                 ext4                    /dev/block/mtdblock9
+/data                   ext4                    /dev/block/mtdblock7
+/cache                  ext4                    /dev/block/mtdblock6
+#/emmc                  datamedia               /dev/null
+/emmc                   vfat                    /dev/block/mtdblock10
+/sdcard                 vfat                    /dev/block/mmcblk0p1    /dev/block/mmcblk0
+/sd-ext                 auto                    /dev/block/mmcblk0p2
+#/recovery              mtd                     recovery
+#/boot                  mtd                     recovery
+#/misc                  mtd                     recovery
 
-/boot		emmc		/dev/block/nandc
-/cache		ext4		/dev/block/nandh
-/data		ext4		/dev/block/nande
-/emmc		auto		/dev/block/nandi /dev/block/nandi1
-/sdcard		vfat		/dev/block/mmcblk0p1	/dev/block/mmcblk0
-/sd-ext		auto		/dev/block/mmcblk0p2
-/system		ext4		/dev/block/nandd
-/recovery	emmc		/dev/block/nandg
+
+
+###Old config
+#/boot		emmc		/dev/block/nandc
+#/cache		ext4		/dev/block/nandh
+#/data		ext4		/dev/block/nande
+#/emmc		auto		/dev/block/nandi /dev/block/nandi1
+#/sdcard		vfat		/dev/block/mmcblk0p1	/dev/block/mmcblk0
+#/sd-ext		auto		/dev/block/mmcblk0p2
+#/system		ext4		/dev/block/nandd
+#/recovery	emmc		/dev/block/nandg
