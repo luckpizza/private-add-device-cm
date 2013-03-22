@@ -13,7 +13,7 @@
 
 
 ###Old config
-#/boot		emmc		/dev/block/nandc
+/boot		emmc		/dev/block/nandc
 #/cache		ext4		/dev/block/nandh
 #/data		ext4		/dev/block/nande
 #/emmc		auto		/dev/block/nandi /dev/block/nandi1
