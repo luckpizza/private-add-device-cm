@@ -7,7 +7,7 @@ $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Inherit device configuration
-#$(call inherit-product, device/SEDMANUFACTURER/SEDNAME/full_SEDNAME.mk)
+$(call inherit-product, device/SEDMANUFACTURER/SEDNAME/full_SEDNAME.mk)
 
 #### Set screen size
 TARGET_SCREEN_HEIGHT := 768

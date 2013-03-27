@@ -18,7 +18,7 @@
 #
 # Everything in this directory will become public
 
-$(call inherit-product, device/SEDMANUFACTURER/common/device.mk)
+#$(call inherit-product, device/SEDMANUFACTURER/common/device.mk)
 $(call inherit-product-if-exists, vendor/SEDMANUFACTURER/SEDNAME/SEDNAME-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/SEDMANUFACTURER/SEDNAME/overlay
